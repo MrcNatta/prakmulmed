@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar HTML dan CSS</title>
+    <link rel="stylesheet" href="styles.css"> <!-- External CSS -->
+</head>
+
+<body>
+
+    <header>
+        <h1>Belajar HTML dan CSS</h1>
+        <p>Modul Praktikum Multimedia</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about-us">About Us</a></li>
+            <li><a href="#inline-css">Inline CSS</a></li>
+            <li><a href="#internal-css">Internal CSS</a></li>
+            <li><a href="#external-css">External CSS</a></li>
+        </ul>
+    </nav>
+
+    <!-- Bagian About Us -->
+    <section id="about-us">
+        <h2>About Us</h2>
+        <p><strong>Nama:</strong> Nathanael Miracle</p>
+        <p><strong>Hobi:</strong> Bermain alat musik </p>
+        <p><strong>Sosial Media:</strong></p>
+        <ul>
+            <li><a href="https://instagram.com/natthnishere_" target="_blank">Instagram</a></li>
+        </ul>
+    </section>
+
+    <article id="inline-css">
+        <h2>Inline CSS</h2>
+        <p>Inline CSS adalah gaya yang diterapkan langsung pada elemen HTML dengan menggunakan atribut
+            <code>style</code>.
+        </p>
+        <p><strong>Contoh:</strong></p>
+        <pre>&lt;h1 style="color:blue;"&gt;This is a Blue Heading&lt;/h1&gt;</pre>
+    </article>
+
+    <article id="internal-css">
+        <h2>Internal CSS</h2>
+        <p>Internal CSS ditulis di dalam elemen <code>&lt;style&gt;</code> di bagian <code>&lt;head&gt;</code> dari
+            halaman HTML.</p>
+        <p><strong>Contoh:</strong></p>
+        <pre>&lt;style&gt;
+body { background-color: powderblue; }
+h1 { color: blue; }
+p { color: red; }
+&lt;/style&gt;</pre>
+    </article>
+
+    <article id="external-css">
+        <h2>External CSS</h2>
+        <p>External CSS adalah file terpisah yang dihubungkan ke halaman HTML melalui elemen <code>&lt;link&gt;</code>.
+        </p>
+        <p><strong>Contoh:</strong></p>
+        <pre>&lt;link rel="stylesheet" href="styles.css"&gt;</pre>
+    </article>
+
+</body>
+
+</html>
